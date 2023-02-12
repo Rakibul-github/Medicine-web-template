@@ -209,3 +209,71 @@ header
     text-align: center;
 }
 /* suggestion section code end */
+
+/* medium device code start */
+@media (max-width: 991px) {
+    .navbar-toggler {
+        margin: 0 0 0 auto;
+    }
+    .hero.py-5 {
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+    }
+    .hero .content h1 {
+        font-size: 3rem;
+    }
+    .hero .content p {
+        font-size: 30px;
+        margin: 20px 0;
+        padding: 0;
+    }
+    .hero .content a
+    {
+        margin: 0px 0;
+    }
+    .item-body.p-5
+    {
+        padding: 0!important;
+        margin-bottom: 0!important;
+    }
+    .item-content .item-body .py-5
+    {
+        margin-bottom: 0px !important;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+}
+
+/* small device code */
+@media (max-width: 767px) {
+    .hero
+    {
+        display: flex;
+    }
+    .hero .content.pt-5
+    {
+        padding-top: 0rem!important;
+    }
+    .hero .content
+    {
+        text-align: center;
+    }
+    
+    .hero .content h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .hero .content p {
+        font-size: 20px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .hero .content a
+    {
+        margin: 0px 0;
+        font-size: 16px;
+        text-align: center;
+        padding: 6px 16px;
+        border-radius: 8px;
+    }
+}
